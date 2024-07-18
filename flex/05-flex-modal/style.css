@@ -20,7 +20,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
   display: flex;
+  gap: 16px;
   padding: 16px;
 }
 
@@ -39,6 +41,14 @@ body {
   flex-shrink: 0;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 16px;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -52,23 +62,10 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  }
 
-  flex-shrink: 0;
-}
-
-.header {
-  font-weight: bold;
-  font-size: 20px;
+.text {
   padding-bottom: 16px;
-}
-
-.info {
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
-.selectionbox {
-  padding-top: 16px;
 }
 
 button {
